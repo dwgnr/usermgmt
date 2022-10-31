@@ -1,5 +1,7 @@
 # Simultaneous User Management for LDAP and Slurm
 
+**This repo has been moved to [https://github.com/th-nuernberg/usermgmt](https://github.com/th-nuernberg/usermgmt). Please check the latest version there.**
+
 The [Slurm](https://slurm.schedmd.com/overview.html) cluster management system lacks direct LDAP integration, which can make user management quite cumbersome. 
 Slurm is not automatically aware of any users in the system and what their resource limits in the cluster should be. 
 Hence, a new user must be added to the LDAP instance and the Slurm database, which requires double bookkeeping and is error-prone (e.g. user might exist in Slurm but has been deleted in LDAP or vice versa). 
